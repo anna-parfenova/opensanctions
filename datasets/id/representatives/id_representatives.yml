@@ -1,0 +1,22 @@
+name: id_representatives
+title: Indonesian House of Representatives
+url: https://www.dpr.go.id/
+entry_point: crawler
+prefix: id-dpr
+coverage:
+  frequency: daily
+load_db_uri: ${OPENSANCTIONS_DATABASE_URI}
+summary: |
+  Members of the House of Representatives of the Republic of Indonesia.
+description: |
+  placeholder
+publisher:
+    name: the House of Representatives of the Republic of Indonesia
+    official: true
+    description: |
+      placeholder
+    country: id
+    url: https://www.dpr.go.id/en/anggota
+data:
+    url: https://www.dpr.go.id/en/anggota
+    format: HTML
